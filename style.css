@@ -156,7 +156,7 @@ span{
 }
 .line{
   background-color: #FFC37C;
-  width: 90%;
+  width: 25%;
   margin: auto;
   margin-top: 0.7rem;
   margin-bottom: 0.7rem;
@@ -210,6 +210,7 @@ span{
 .s5{
   background:url('./resources/AM_006_D/map/map_D.png');
   background-size:cover;
+  background-size:100% 100%;
 }
 
 }
@@ -244,6 +245,7 @@ span{
 .s5{
   background:url('./resources/AM_006_P/map/map_P.png');
   background-size:cover;
+  background-size:100% 100%;
 }
 #gallery{
   margin-bottom: -3px;
@@ -286,6 +288,7 @@ span{
 .s5{
   background:url('./resources/AM_006_TAB_P/map/map_tab_P.png');
   background-size:cover;
+  background-size:100% 100%;
 }
 }
 
@@ -326,6 +329,7 @@ span{
 .s5{
   background:url('./resources/AM_006_TAB_L/map/map_tab_L.png');
   background-size:cover;
+  background-size:100% 100%;
 }
 
 }
@@ -365,7 +369,7 @@ span{
 }
 .s5{
   background:url('./resources/AM_006_D/map/map_D.png');   /* change background of map here */
-  background-size:cover;
+  background-size:100% 100%;
 }
 
 }
@@ -375,6 +379,10 @@ span{
 
 /* for desktop and laptop */
 @media screen and (min-width: 1400px){
+  .line{
+    width:30%;
+  }
+
   .map-container{
     padding: 0 5rem;
   }
@@ -396,6 +404,9 @@ span{
 
 /* for large size tablets */
 @media screen and (min-width: 1200px){
+  .line{
+    width:25%;
+  }
   .map-container{
     padding: 0 5rem;
   }
@@ -416,6 +427,9 @@ span{
 }
 /* for ipad pro portrait mode  */   
 @media screen and (max-width: 1024px) and (orientation: portrait){
+  .line{
+    width:60%;
+  }
   p{
     line-height: 2em;
   }
@@ -450,6 +464,9 @@ span{
 }
 /* for ipad landscape mode */
 @media screen and (max-width: 1024px) and (orientation: landscape){
+  .line{
+    width:60%;
+  }
 
   .map-container{
     padding: 0 3rem;
@@ -474,6 +491,9 @@ span{
 
 /* for ipad portrait mode */
 @media screen and (max-width: 768px) and (orientation: portrait){
+  .line{
+    width:60%;
+  }
   .map-container{
     display: flex;
     flex-direction: column;
@@ -509,6 +529,9 @@ span{
 
 /* for smartphones */
 @media screen and (max-width: 480px){
+  .line{
+    width:80%;
+  }
   .map-container{
     padding: 0;
     height: 80vh;
@@ -559,6 +582,9 @@ span{
 }
 /* for smartphone (iphone 4,5,SE..) */
 @media screen and (max-width: 350px){
+  .line{
+    width:80%;
+  }
   #direction-header{
     top: 5%;
   } 
