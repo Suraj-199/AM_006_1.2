@@ -405,7 +405,7 @@ span{
 /* for large size tablets */
 @media screen and (min-width: 1200px){
   .line{
-    width:25%;
+    width:30%;
   }
   .map-container{
     padding: 0 5rem;
